@@ -1,0 +1,204 @@
+.emo {
+    text-align: center;
+
+    font-size: 20px;
+
+}
+
+.em {
+    font-variant-caps: petite-caps;
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
+.and {
+    text-align: center;
+
+    font-size: 25px;
+
+}
+
+.but {
+    font-style: oblique;
+    text-align: center;
+
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(61, 164, 198);
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.half-widt {
+
+
+    width: 25%;
+
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-widt img {
+    width: 100%;
+    border-image-repeat: no-repeat;
+
+}
+
+
+.half-width {
+
+
+    width: 40%;
+
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 40%;
+    border-image-repeat: no-repeat;
+}
+
+button {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 20px 90px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.top-banner {
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+.Dream-area {
+    background-image: url("../img/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.ban {
+    background-image: url("../img/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+button {
+    color: white;
+    background-color: rgb(7, 171, 212);
+
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.latest-work {
+    background-image: url("../img/latest-work-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+section {
+    height: 500px;
+}
+
+.latest-work {
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+
+
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#full-stac {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+/* .container {
+    height: 160px;
+    position: relative;
+    border: none
+} */
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.experience-area {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#full-stac {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+table {
+    border-image: url(img/header-bg.png);
+}
+
+.emon {
+    height: 500px;
+    background-image: url(img/header-bg.png);
+
+}
+
+td,
+th {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+}
+
+.corse {
+    border: none;
+}
+
+.stpic {
+    width: 40%;
+    /* height: 60%; */
+    border-image-repeat: no-repeat;
+    position: relative;
+    left: 30%;
+}
+
+/* Customising the Bootstrap CSS */
+.carousel-control-prev, .carousel-control-next{
+    background: black;
+    height: 50px;
+    width: 40px;
+    border-radius: 10px;
+    margin-top: 5.5rem;
+}
+.carousel-control-next{
+    margin-right: 4rem;
+}
